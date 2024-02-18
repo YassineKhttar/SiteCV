@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: #272728;
+}
+ nav {
+    text-align: center;
+    font-size: 20px;
+ }
+
+ ul{
+    display: flex;
+    justify-content: space-around;
+ }
+ a{
+    color:white;
+    text-decoration:none;
+ }
+ nav li {
+    display: inline;
+    list-style: none;
+ }
+ .image{
+    width: 100%;
+ }
+.accueil{
+    text-align: center;
+    color: white;
+}
+.parcours{
+color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+height: 55%;
+}
+
+.parcoursgauche{
+    width: 60%;
+    margin: right 10px;
+}
+.parcoursimage{
+    margin-top:2%;
+    float: right;
+}
+
+.etude{
+    background-image: url("blck.jpg");
+    padding-bottom: 10%;
+}
+
+.titreetudes{
+    text-align: center;
+    color: white;
+}
+
+.etude h1{
+    text-align: center;
+}
+
+.etudesecole{
+    margin-left: 23%;
+}
+
+.ecole{
+    width: 70%;
+    height: 20%;
+    background-color: #272728;
+    align-items:center;
+}
+
+.ecole h1{
+    color: white;
+}
+
+.ecole img{
+    margin-left: 43%;
+    width:15%;
+    height: 20%;
+}
+.experience{
+    background-image: url("blck.jpg");
+    padding-bottom:5%;
+}
+
+.titreexperience{
+    text-align: center;
+    color: white;
+}
+
+.expcadre{
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+.experienceuniv{
+    width: 70%;
+    height: 20%;
+    background-color: #272728;
+    align-items: center;
+}
+
+.experienceuniv h1{
+    color: white;
+}
+
+.experienceuniv img{
+    margin-left: 43%;
+    width:10%;
+    height:20%;
+}
+
+.contact{
+    color:white;
+}
+ .mail:hover{
+    color:lightblue;
+    font-weight: bold;
+ }
